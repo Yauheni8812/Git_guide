@@ -1,0 +1,26 @@
+# Файлы и папки, которые нужно игнорировать в Git
+
+# Логи и временные файлы
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Файлы и папки IDE
+.vscode/
+.idea/
+*.iml
+
+# Файлы сборки и зависимости
+node_modules/
+dist/
+build/
+target/
+
+# Файлы ОС
+.DS_Store
+Thumbs.db
+
+# Файлы конфигурации среды
+.env
+*.env.local
